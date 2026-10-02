@@ -1,0 +1,18 @@
+{
+  "name": "create-yv",
+  "version": "0.1.0",
+  "description": "Create a yv application",
+  "bin": {
+    "create-yv": "bin/create-yv.js"
+  },
+  "files": [
+    "bin",
+    "templates"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node ./bin/create-yv.js myapp"
+  }
+}
