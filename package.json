@@ -1,7 +1,7 @@
 {
   "name": "create-yv",
-  "version": "0.2.0",
-  "description": "Create a yv application",
+  "version": "v0.2.2",
+  "description": "A lightweight C-based WebView runtime for macOS. Build desktop applications with C, HTML, CSS, and JavaScript.",
   "type": "module",
   "bin": {
     "create-yv": "bin/create.js"
@@ -18,5 +18,13 @@
   "dependencies": {
     "@inquirer/prompts": "^8.7.3",
     "giget": "^3.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kuchinashi4yume/create-yv.git"
+  },
+  "homepage": "https://github.com/kuchinashi4yume/create-yv#readme",
+  "bugs": {
+    "url": "https://github.com/kuchinashi4yume/create-yv/issues"
   }
 }
