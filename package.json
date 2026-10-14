@@ -1,6 +1,6 @@
 {
   "name": "create-yv",
-  "version": "v0.2.2",
+  "version": "v0.2.3",
   "description": "A lightweight C-based WebView runtime for macOS. Build desktop applications with C, HTML, CSS, and JavaScript.",
   "type": "module",
   "bin": {
