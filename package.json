@@ -2,17 +2,21 @@
   "name": "create-yv",
   "version": "0.1.0",
   "description": "Create a yv application",
+  "type": "module",
   "bin": {
-    "create-yv": "bin/create-yv.js"
+    "create-yv": "./bin/create.js"
   },
   "files": [
-    "bin",
-    "templates"
+    "bin"
   ],
   "engines": {
     "node": ">=22"
   },
   "scripts": {
-    "test": "node ./bin/create-yv.js myapp"
+    "test": "node ./bin/create.js myapp"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.7.3",
+    "giget": "^3.3.1"
   }
 }
