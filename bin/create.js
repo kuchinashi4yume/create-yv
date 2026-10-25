@@ -163,9 +163,9 @@ try {
     // 5-4-3. Update CMakeLists.txt
     //--------------------------------------------------------------------------------------------------------------------------------------------
     const pathCMakeListsTxt = path.join(dir, 'CMakeLists.txt');
-    const cmakeliststxt = fs.readFileSync(pathCMakeListsTxt, { encoding: 'utf8' });
-
-    cmakeliststxt.replace('__PLACEHOLDER__YV__PROJECT_NAME__YV__', projectName);
+    const cmakeliststxt = fs.
+        readFileSync(pathCMakeListsTxt, { encoding: 'utf8' })
+        .replaceAll('__PLACEHOLDER__YV__PROJECT_NAME__YV__', projectName);
 
     fs.writeFileSync(pathCMakeListsTxt, cmakeliststxt);
 
